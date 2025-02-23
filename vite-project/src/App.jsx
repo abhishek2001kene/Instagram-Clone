@@ -8,7 +8,7 @@ import MainLayout from "./Pages/MainLayout";
 import Home from "./Pages/Home";
 import Profile from "./Pages/Profile";
 import EditProfile from "./Components/EditProfile";
-import ChatPage from "./Components/chatPage";
+import ChatPage from "./Components/ChatPage";
 import ProtectedRoutes from "./Components/ProtectedRoutes";
 
 

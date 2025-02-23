@@ -38,7 +38,7 @@ function Sidebar() {
   
     try {
       const response = await axios.post(
-        "http://localhost:7000/api/v1/users/logout",
+        "https://instagram-clone-1-ag8w.onrender.com/api/v1/users/logout",
         {},
         { withCredentials: true }
       );

@@ -46,7 +46,7 @@ useEffect(() => {
 const handleFollow = async () => {
   try {
       const response = await axios.put(
-          `http://localhost:7000/api/v1/users/follow/${userProfile._id}`,
+          `https://instagram-clone-1-ag8w.onrender.com/api/v1/users/follow/${userProfile._id}`,
           {},
           { withCredentials: true }
       );
@@ -70,7 +70,7 @@ const handleFollow = async () => {
 const handleUnfollow = async () => {
   try {
       const response = await axios.put(
-          `http://localhost:7000/api/v1/users/unfollow/${userProfile._id}`,
+          `https://instagram-clone-1-ag8w.onrender.com/api/v1/users/unfollow/${userProfile._id}`,
           {},
           { withCredentials: true }
       );

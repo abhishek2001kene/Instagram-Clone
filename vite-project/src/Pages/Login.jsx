@@ -18,7 +18,7 @@ function Login() {
         try {
             setLoading(true);
             const response = await axios.post(
-                "http://localhost:7000/api/v1/users/login",
+                "https://instagram-clone-1-ag8w.onrender.com/api/v1/users/login",
                 { email, password },
                 {
                     headers: { "Content-Type": "application/json" },  

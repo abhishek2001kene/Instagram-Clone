@@ -26,7 +26,7 @@ function Post({ post }) {
       const action = like ? "dislike" : "like";
 
       const response = await axios.get(
-        `http://localhost:7000/api/v1/post/${post._id}/${action}`,
+        `https://instagram-clone-1-ag8w.onrender.com/api/v1/post/${post._id}/${action}`,
         { withCredentials: true }
       );
 

@@ -10,7 +10,7 @@ function useUserProfile(userid) {
         const getUserProfile = async () => {
             try {
                 const response = await axios.get(
-                    `http://localhost:7000/api/v1/users/${userid}/profile`,
+                    `https://instagram-clone-1-ag8w.onrender.com/api/v1/users/${userid}/profile`,
                     { withCredentials: true }
                 );
 

@@ -9,7 +9,7 @@ function useGetallPosts() {
     useEffect(()=>{
         const getAllPost = async () => {
             try {
-                const response = await axios.get('http://localhost:7000/api/v1/post/all',
+                const response = await axios.get('https://instagram-clone-1-ag8w.onrender.com/api/v1/post/all',
                     {
                         withCredentials:true
                     }

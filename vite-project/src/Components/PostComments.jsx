@@ -20,7 +20,7 @@ function PostComments({ post, Postcomments, setPostcomments }) {
     const getAllPostComments = async () => {
         try {
             const response = await axios.get(
-                `http://localhost:7000/api/v1/post/${post._id}/comment/all`,
+                `https://instagram-clone-1-ag8w.onrender.com/api/v1/post/${post._id}/comment/all`,
                 { withCredentials: true }
             );
             if (response.data) {
@@ -35,7 +35,7 @@ function PostComments({ post, Postcomments, setPostcomments }) {
         if (!text.trim()) return;
         try {
             const response = await axios.post(
-                `http://localhost:7000/api/v1/post/${post._id}/comment`,
+                `https://instagram-clone-1-ag8w.onrender.com/api/v1/post/${post._id}/comment`,
                 { text },
                 {
                     withCredentials: true,

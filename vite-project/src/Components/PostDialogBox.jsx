@@ -21,7 +21,7 @@ function PostDialogBox({ postAuthorid, postId}) {
   const deletePost = async () => {
     try {
 
-        const response = await axios.delete(`http://localhost:7000/api/v1/post/delete/${postId}`,
+        const response = await axios.delete(`https://instagram-clone-1-ag8w.onrender.com/api/v1/post/delete/${postId}`,
             { withCredentials: true,}) 
 
 

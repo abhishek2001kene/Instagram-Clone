@@ -1,0 +1,20 @@
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  /* ... */
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
+  }
+  
+
+  .popup {
+
+  
+    transition: opacity 0.6s cubic-bezier(1,-0.1, 0, 1.72), transform 0.4s ease-in-out;
+  }

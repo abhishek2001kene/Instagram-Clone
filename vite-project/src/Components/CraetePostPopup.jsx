@@ -41,7 +41,7 @@ function CreatePostPopup() {
       setloading(true);
 
       const response = await axios.post(
-        "http://localhost:7000/api/v1/post/addpost",
+        "https://instagram-clone-1-ag8w.onrender.com/api/v1/post/addpost",
         { caption, image: file },
         {
           headers: { "Content-Type": "multipart/form-data" },
